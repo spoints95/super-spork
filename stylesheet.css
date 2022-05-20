@@ -32,37 +32,38 @@ body {
 }
 
 h3 {
-    border: 3px solid black;
+    border: 3px transparent black;
     font-size: xx-large;
     font-family: 'Smooch';
     margin: auto;
     text-align: center;
-    width: 40%;
+    width: auto;
     border-radius: 30px;
     color: black;
     background: linear-gradient(0deg, #ED9100, #FFFDF8);
 }
 
 h4 {
-    border: 3px solid black;
+    border: 3px transparent black;
     text-align: center;
     font-size: 25px;
     font-family: monospace;
     margin: auto;
-    width: 35%;
+    width: auto;
     border-radius: 30px;
     color: black;
     background: linear-gradient(0deg, #ED9100, #FFFDF8);
 
 }
 ul {
-    border: 3px solid black;
+    border: 3px transparent black;
     text-align: center;
-    width: 60%;
+    width: auto;
     margin: auto;
     background: linear-gradient(0deg, #ED9100, #FFFDF8);
     border-radius: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 200px;
     padding: 2% 2%;
+    list-style-type: none;
 }
