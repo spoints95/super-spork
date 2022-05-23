@@ -68,8 +68,8 @@ ul {
     list-style-type: none;
 }
 #chiltonpic {
-    height: 250px;
-    width: 200px;
+    height: 50%;
+    width: 25%;
 }
 .navbar {
     overflow: hidden;
@@ -132,10 +132,10 @@ ul {
     display: block;
   }
   .ginmulepic {
-      height: 250px;
-      width: 200px;
+      height: 50%;
+      width: 25%;
   }
   .whiskeysourpic {
-      height: 250px;
-      width: 200px;
+      height: 50%;
+      width: 25%;
   }
