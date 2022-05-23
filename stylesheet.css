@@ -131,3 +131,11 @@ ul {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .ginmulepic {
+      height: 250px;
+      width: 200px;
+  }
+  .whiskeysourpic {
+      height: 250px;
+      width: 200px;
+  }
