@@ -67,23 +67,8 @@ ul {
     padding: 2% 2%;
     list-style-type: none;
 }
-#chiltonpic {
-    height: 50%;
-    width: 25%;
-}
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
   
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+ 
   
   .dropdown {
     float: left;
@@ -109,7 +94,7 @@ ul {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background: linear-gradient(0deg, #ED9100, #FFFDF8);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -125,7 +110,7 @@ ul {
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: gold;
   }
   
   .dropdown:hover .dropdown-content {
@@ -133,9 +118,13 @@ ul {
   }
   .ginmulepic {
       height: 50%;
-      width: 25%;
+      width: 20%;
   }
   .whiskeysourpic {
       height: 50%;
-      width: 25%;
+      width: 20%;
   }
+  #chiltonpic {
+    height: 50%;
+    width: 20%;
+}
