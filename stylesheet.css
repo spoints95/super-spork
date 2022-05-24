@@ -1,130 +1,128 @@
 header {
-    border: 5px solid black;
-    text-decoration: underline;
-    text-align: center;
-    margin: auto 2%;
-    border-radius: 15px;
-    background-image: url(./barback.jpg);
-    color: white;
-    
-    }
+  border: 5px solid black;
+  text-decoration: underline;
+  text-align: center;
+  margin: auto 2%;
+  border-radius: 15px;
+  background-image: url(./barback.jpg);
+  color: white;
+  }
 nav {
-    display: inline-block;
-    word-spacing: 10px;
+  display: inline-block;
+  word-spacing: 10px;
 }
 a:hover {
-    background-color: yellow;
-    color: #ED9100;
+  background-color: yellow;
+  color: #ED9100;
 }
 a{
-    color: white;
+  color: white;
 }
 body {
-    background-image: url(./beerbackg.png); 
-    background-attachment:fixed;
-    background-position: center;
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-color: black;
-    width: 99%;
-    height: 100%;
-    background-size: 100% 100%;
+  grid-template-columns: auto;
+  background-image: url(./beerbackg.png); 
+  background-attachment:fixed;
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 99%;
+  height: 100%;
+  background-size: 100% 100%;
 }
-
+.drink-box {
+  border: 3px transparent black;
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  background: linear-gradient(0deg, #ED9100, #FFFDF8);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 50%;
+  list-style-type: none;
+  grid-column: 2/3;
+}
 h3 {
-    border: 3px transparent black;
-    font-size: xx-large;
-    font-family: 'Smooch';
-    margin: auto;
-    text-align: center;
-    width: 60%;
-    border-radius: 30px;
-    color: black;
-    background: linear-gradient(0deg, #ED9100, #FFFDF8);
+  font-size: xx-large;
+  font-family: 'Smooch';
+  margin: auto;
+  text-align: center;
+  grid-column: 2/3;
+  color: white;
+  border-bottom: 2px solid black;
+  background-image: url(./barback.jpg);
 }
-
 h4 {
-    border: 3px transparent black;
-    text-align: center;
-    font-size: 25px;
-    font-family: monospace;
-    margin: auto;
-    width: 60%;
-    border-radius: 30px;
-    color: black;
-    background: linear-gradient(0deg, #ED9100, #FFFDF8);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 15px;
+text-decoration: underline;
+}
+ul{
+  position:relative;
+  display: inline-block;  
+  list-style: none;
+  width:100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
 
+.dropdown .dropbtn {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
-ul {
-    border: 3px transparent black;
-    text-align: center;
-    width: 65%;
-    margin: auto;
-    background: linear-gradient(0deg, #ED9100, #FFFDF8);
-    border-radius: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 50%;
-    padding: 2% 2%;
-    list-style-type: none;
+
+.drinks a:hover, .dropdown:hover .dropbtn {
+  background-color: gold;
+  color: black;
 }
-  
- 
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 25px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .drinks a:hover, .dropdown:hover .dropbtn {
-    background-color: gold;
-    color: black;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background: linear-gradient(0deg, #ED9100, #FFFDF8);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: gold;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .ginmulepic {
-      height: 60%;
-      width: 30%;
-  }
-  .whiskeysourpic {
-      height: 60%;
-      width: 30%;
-  }
-  #chiltonpic {
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: linear-gradient(0deg, #ED9100, #FFFDF8);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: gold;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.ginmulepic {
     height: 60%;
     width: 30%;
+    margin-bottom: 2%;
+}
+.whiskeysourpic {
+    height: 60%;
+    width: 30%;
+    margin-bottom: 2%;
+}
+#chiltonpic {
+  height: 60%;
+  width: 30%;
+  margin-bottom: 2%;
 }
