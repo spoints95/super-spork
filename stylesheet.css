@@ -37,7 +37,7 @@ body {
   border: 3px transparent black;
   text-align: center;
   width: 65%;
-  margin: auto;
+  margin: 15pt auto;
   background: linear-gradient(0deg, #ED9100, #FFFDF8);
   font-family: Georgia, 'Times New Roman', Times, serif;
   height: 50%;
@@ -48,16 +48,18 @@ h3 {
   font-size: xx-large;
   font-family: 'Smooch';
   margin: auto;
+  height: 50pt;
   text-align: center;
   grid-column: 2/3;
   color: white;
   border-bottom: 2px solid black;
   background-image: url(./barback.jpg);
+  padding-top: 15pt;
 }
 h4 {
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 15px;
-text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-decoration: underline;
 }
 ul{
   position:relative;
@@ -115,14 +117,14 @@ ul{
   display: block;
 }
 .ginmulepic {
-    height: 60%;
-    width: 30%;
-    margin-bottom: 2%;
+  height: 60%;
+  width: 30%;
+  margin-bottom: 2%;
 }
 .whiskeysourpic {
-    height: 60%;
-    width: 30%;
-    margin-bottom: 2%;
+  height: 60%;
+  width: 30%;
+  margin-bottom: 2%;
 }
 #chiltonpic {
   height: 60%;
