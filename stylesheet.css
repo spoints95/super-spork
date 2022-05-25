@@ -25,9 +25,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
+  background-size: cover;
   width: auto;
   height: auto;
-  background-size: cover;
   min-width: 150pt;
   max-width: 1500pt;
   min-height: 150pt;
