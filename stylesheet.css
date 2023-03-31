@@ -20,18 +20,8 @@ a{
 }
 body {
   grid-template-columns: auto;
-  background-image: url(./beerbackg.png); 
-  background-attachment:fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-color: black;
-  background-size: cover;
-  width: auto;
-  height: auto;
-  min-width: 150pt;
-  max-width: 1500pt;
-  min-height: 150pt;
-  max-height: 1500pt;
+  
 }
 .drink-box {
   border: 3px transparent black;
